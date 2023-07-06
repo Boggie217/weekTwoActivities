@@ -3,3 +3,28 @@ let userName = "Aloy";
 let favouriteColor = "purple";
 
 console.log(`Hi my name is ${userName}, i am ${userAge} years old and my favourite color is ${favouriteColor}`)
+
+
+
+
+let breakfast = "cereal"
+let lunch = "sausages"
+let dinner = "pizza"
+
+console.log(`today for breakfast i had ${breakfast}, for lunch i had ${lunch} and for dinner i had ${dinner}`)
+
+
+
+const startDate = new Date('2024-02-02');
+const endDate = new Date('2023-03-07');
+
+// Calculate the time difference in milliseconds
+const timeDiff = endDate.getTime() - startDate.getTime();
+
+// Convert milliseconds to days
+const daysDiff = Math.floor(timeDiff / (1000 * 60 * 60 * 24));
+
+console.log('Number of days:', daysDiff);
+
+
+
