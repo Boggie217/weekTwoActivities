@@ -1,0 +1,103 @@
+//activity 1
+let age = 17
+let country = "uk"
+if (age > 17 && country == "uk"){
+    console.log("Yes i can serve you")
+}
+else {console.log("You aren't old enough")}
+
+//activity 2
+
+const topping = "cheese";
+
+switch (topping) {
+  case "Cheese":
+    console.log(`${topping} is an important ingredient for my pizza.`);
+    break;
+  case "Ham & mushroom":
+    console.log(`${topping} is an important ingredient for my pizza.`);
+    break;
+  case "Pepperoni":
+    console.log(`${topping} is an important ingredient for my pizza.`);
+    break;
+  case "Pineapple":
+    console.log(`${topping} should not be on a pizza.`);
+    break;
+  default:
+    console.log(`I don't mind having ${topping} on my pizza.`);
+    break;
+}
+
+
+
+
+let password = "androihhhhhd53"
+if (password.length > 8) {
+    console.log("this password is too short, please choose another")
+} else console.log(password)
+
+
+let num = 15
+if (num %3==0){
+    console.log("fizz")
+
+} else if (num %5==0){console.log("buzz")}
+
+else if(num%5==0 && num %3==0){console.log("fizzbuzz")}
+else console.log("num")
+
+
+
+
+// Function to check if a number is a palindrome
+function isPalindrome(number) {
+    // Convert the number to a string
+    const numberStr = String(number);
+  
+    // Reverse the string
+    const reversedStr = numberStr.split('').reverse().join('');
+  
+    // Compare the reversed string with the original string
+    if (numberStr === reversedStr) {
+      return true;
+    } else {
+      return false;
+    }
+  }
+  
+  // Example usage
+  const num1 = 12321;
+  const num2 = 45654;
+  
+  if (isPalindrome(num1) && isPalindrome(num2)) {
+    console.log("Both numbers are palindromes.");
+  } else if (isPalindrome(num1)) {
+    console.log("Only the first number is a palindrome.");
+  } else if (isPalindrome(num2)) {
+    console.log("Only the second number is a palindrome.");
+  } else {
+    console.log("Neither number is a palindrome.");
+  }
+  
+
+
+
+  let time = 11;
+  let placeOfWork = "Office";
+  let townOfHome = "Home";
+  
+  if (time < 9) {
+    console.log("I am at " + townOfHome);
+  } else if (time >= 9 && time < 18) {
+    console.log("I am at " + placeOfWork);
+  } else {
+    console.log("I am at " + townOfHome);}
+
+
+
+var number1 = 53;
+      var number2 = 48
+
+      if(number1 + number2 % 2==0 ){console.log("even number")}
+      else{console.log(number1 * number2)}
+
