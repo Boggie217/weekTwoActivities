@@ -1,0 +1,62 @@
+//Activity 1
+
+
+let films = ["Empire strikes back", "Chicken Run", "Truman Show", "2001 space Odyssey","The road to el dorado"]
+    films.push(["toy story", "Princess Bride"]) 
+    for (let i = 0; i < films.length; i++) {console.log(films[i]);}
+
+//activity 2
+ for (let i = 0; i < 6; i++) {
+        
+        const randomNumber = Math.floor(Math.random() * 50) + 1;
+        console.log(randomNumber);
+      }
+
+//activity 3
+      for (let i = 9; i>=0; i--)
+      {console.log(i);}
+
+//activity 4  
+let movies = ["Star wars","Jurassic Park","Life of brian","Ghostbusters"]
+      if(movies[2] == "Ghostbusters"){console.log("Yay it's Ghostbusters!");}
+      else{console.log("Boo! We want Ghostbusters!");}
+
+
+
+//activity 5
+
+
+      for (let i = 0; i < 6; i++) {
+        const randomNumber = Math.floor(Math.random() * 30) + 1;
+        console.log(randomNumber);
+
+
+      if (randomNumber % 7 === 0) {
+            console.log('Divisible by 7');
+          } else {
+            console.log('Not divisible by 7');
+          }
+        }
+
+
+
+//Activity 6 
+
+
+
+
+        let bobsFollowers = ["Dave", "Raphael", "Bruno", "Luke"]
+        let hannahsFollowers = ["Raphael","Eric", "Harry","Bruno"]
+
+
+        for (let i = 0; i < bobsFollowers.length; i++) {
+            for (let j = 0; j < hannahsFollowers.length; j++) {
+              if (bobsFollowers[i] === hannahsFollowers[j]) {
+                console.log(`Matching string: ${bobsFollowers[i]}`);
+              }
+            }
+          }
+         
+      
+
+
