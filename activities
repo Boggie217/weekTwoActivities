@@ -1,0 +1,5 @@
+let userAge = 25;
+let userName = "Aloy";
+let favouriteColor = "purple";
+
+console.log(`Hi my name is ${userName}, i am ${userAge} years old and my favourite color is ${favouriteColor}`)
