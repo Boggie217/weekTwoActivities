@@ -114,3 +114,9 @@ var num1 = 53;
       if(number1 + number2 % 2==0 ){console.log("even number")}
       else{console.log(number1 * number2)}
 
+
+
+
+const factorial = (n) => {if n ===1 || n === 0(
+        {return:1}, else {return:n* factorial(n-1)})}
+
