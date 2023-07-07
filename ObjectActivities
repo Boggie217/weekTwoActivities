@@ -72,3 +72,39 @@ drink(){
 console.log(pet.eat());
 console.log(pet.drink());
 
+
+
+
+    const coffeeShop = {
+        Mocha: 1.50,
+        
+
+Hot_Chocolate: 1.40,
+
+Americano: 1.30,
+
+Latte: 1.50,
+
+Juice: 2.00,
+        
+        drinksOrdered(drink) {return coffeeShop[drink]},
+    
+        sandwich: 2.00,
+        
+
+        foodOrdered(food) {return coffeeShop[food]},
+
+
+
+
+
+        order(drink,food) {console.log("You have ordered " + drink + " the price is " + this.drinksOrdered(drink) )
+        console.log("You have ordered " + food + " the price is " + this.foodOrdered(food) )
+    console.log(`your' total is ${this.drinksOrdered(drink) + this.foodOrdered(food)}`)}
+}
+
+coffeeShop.order("Mocha","sandwich")
+
+//coffeeShop.drinksOrdered("Mocha")
+//coffeeShop.foodOrdered("sandwich")
+
