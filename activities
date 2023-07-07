@@ -31,10 +31,10 @@ switch (topping) {
 
 
 
-let password = "androihhhhhd53"
+let password = "android53"
 if (password.length > 8) {
     console.log("this password is too short, please choose another")
-} else console.log(password)
+} else { console.log(password)}
 
 
 let num = 15
