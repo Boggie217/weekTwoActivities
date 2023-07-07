@@ -1,0 +1,74 @@
+//activity 1 
+Function sayHi
+Console.log (hello my name is this.name)
+
+Const Person = {
+name: Aloy 
+Tribe: Nora
+hairColor: Ginger
+
+sayHi(){ return”Hello my name is ${this.name}}
+)
+
+Console.log(Person.sayHi());
+
+
+
+
+
+
+
+const alarmMsg = {weekendAlarm: "no alarm needed", 
+weekdayAlarm : "get up at 7am"
+ }
+ let day = "thursday"
+
+let alarm
+
+
+console.log(alarm)
+
+if (day == "Saturday" || day == "Sunday"){
+    alarm = alarmMsg.weekendAlarm
+} else{
+
+    alarm = alarmMsg.weekdayAlarm
+}
+
+console.log(alarmMsg)
+
+
+
+//activity 1
+const sayHi => () {
+
+
+}
+
+
+//activity 2
+
+const pet = {
+    name: "Chewie",
+    typeOfPet: "Husky",
+    age: 2, 
+    colour: "black",
+eating: true,
+drinking: true,
+
+eat(){
+    if(this.eating){
+return `${pet.name} is eating`
+    }
+},
+
+drink(){
+    if(this.drinking){
+        return `${pet.name} is drinking`
+}
+},
+}
+
+console.log(pet.eat());
+console.log(pet.drink());
+
