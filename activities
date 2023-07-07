@@ -28,7 +28,7 @@ switch (topping) {
     break;
 }
 
-
+//activity 3
 
 
 let password = "android53"
@@ -37,6 +37,9 @@ if (password.length > 8) {
 } else { console.log(password)}
 
 
+
+
+//activity 4
 let num = 15
 if (num %3==0){
     console.log("fizz")
@@ -47,7 +50,7 @@ else if(num%5==0 && num %3==0){console.log("fizzbuzz")}
 else console.log("num")
 
 
-
+//activity 4
 
 // Function to check if a number is a palindrome
 function isPalindrome(number) {
@@ -80,7 +83,7 @@ function isPalindrome(number) {
   }
   
 
-
+//activity 6
 
   let time = 11;
   let placeOfWork = "Office";
@@ -94,9 +97,9 @@ function isPalindrome(number) {
     console.log("I am at " + townOfHome);}
 
 
-
-var number1 = 53;
-      var number2 = 48
+//activity 9
+var num1 = 53;
+      var num2 = 48
 
       if(number1 + number2 % 2==0 ){console.log("even number")}
       else{console.log(number1 * number2)}
