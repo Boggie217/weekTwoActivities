@@ -16,8 +16,8 @@ console.log(`today for breakfast i had ${breakfast}, for lunch i had ${lunch} an
 
 
 //activity3
-const startDate = new Date('2024-02-02');
-const endDate = new Date('2023-03-07');
+const startDate = new Date('2023-03-07');
+const endDate = new Date('2024-02-02');
 
 // Calculate the time difference in milliseconds
 const timeDiff = endDate.getTime() - startDate.getTime();
