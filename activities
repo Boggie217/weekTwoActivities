@@ -1,3 +1,11 @@
+const favColor = (color) => {
+  console.log(`Your favorite color is ${color}!`);
+};
+
+// Example usage
+favColor('blue');
+favColor('green');
+
 //Activity 1
 const factorial = (n) => {
   if (n === 1 || n === 0) {
