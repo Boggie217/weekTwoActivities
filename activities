@@ -6,7 +6,7 @@ let favouriteColor = "purple";
 console.log(`Hi my name is ${userName}, i am ${userAge} years old and my favourite color is ${favouriteColor}`)
 
 
-//activity2
+//Activity2
 
 let breakfast = "cereal"
 let lunch = "sausages"
@@ -15,7 +15,7 @@ let dinner = "pizza"
 console.log(`today for breakfast i had ${breakfast}, for lunch i had ${lunch} and for dinner i had ${dinner}`)
 
 
-//activity3
+//Activity3
 const startDate = new Date('2023-03-07');
 const endDate = new Date('2024-02-02');
 
@@ -27,7 +27,7 @@ const daysDiff = Math.floor(timeDiff / (1000 * 60 * 60 * 24));
 
 console.log('Number of days:', daysDiff);
 
-//activity4
+//Activity4
 let varname1 = "x";
 let varname2 = "O";
 
