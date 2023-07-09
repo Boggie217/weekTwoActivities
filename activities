@@ -1,14 +1,42 @@
- const factorial = (n) => {if n ===1 || n === 0
-        {return:1} else {return:n* factorial(n-1)}}
+const factorial = (n) => {
+  if (n === 1 || n === 0) {
+    return 1;
+  } else {
+    return n * factorial(n - 1);
+  }
+};
+
+//Activity 2
 
 
+let orderCount = 0;
+
+const takeOrder = (pizzaSize, topping) => {
+  orderCount++;
+  console.log(`Order ${orderCount}: ${pizzaSize} pizza with ${topping}`);
+};
+
+takeOrder("large", "pepperoni");
+
+//Activity 3
+
+const withdrawalCheck = (pin, Balance, amount) => {
+  const correctPin = '1234';
+
+  if (pin === correctPin) {
+    if (Balance >= amount) {
+      return 'Dispensing funds';
+    } else {
+      return 'Insufficient funds';
+    }
+  } else {
+    return 'Incorrect PIN';
+  }
+};
+
+console.log(withdrawalCheck('1234', 1000, 500)); // Transaction successful
+console.log(withdrawalCheck('4321', 1000, 500)); // Incorrect PIN
+console.log(withdrawalCheck('1234', 200, 500)); // Insufficient funds
 
 
-activity 2
-
-
-
-
-
-activity 3
 
