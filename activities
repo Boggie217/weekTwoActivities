@@ -1,6 +1,9 @@
 //First Activity1
 
-
+console.log("The slice method takes a number of elements out of an array, depending on what is present in the circular brackets, such as 2.")
+let newArray = console.log( [5,4,3,8,9])
+console.log("so if we had a n array of [5 4 3 8 9] and did .slice(2) we'd have")
+let newerArray = console.log( newArray.slice(2));
 
 
 //Activity 1
