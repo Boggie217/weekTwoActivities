@@ -1,5 +1,5 @@
 //activity 1
-let age = 17
+let Age = 17
 let country = "uk"
 if (age > 17 && country == "uk"){
     console.log("Yes i can serve you")
@@ -8,7 +8,7 @@ else {console.log("You aren't old enough")}
 
 //activity 2
 
-const topping = "cheese";
+const topping = "Cheese";
 
 switch (topping) {
   case "Cheese":
@@ -95,7 +95,8 @@ function isPalindrome(number) {
     console.log("I am at " + townOfHome);}
 
 //activity 7
-const inputString = "adhdhkasdhsakdjhqwiuayeqwihdkiahnfkshgfai";
+const inputString = "jrfndklhgfndjkjlkgperfijfhdknsadcvjhiiohjfkledsopiuh
+gtyujwsdxcvhgfdjhiopiwquhejkdsoiufghedjwshi";
       const lastVowel = findLastVowel(inputString);
       console.log(lastVowel);
 
